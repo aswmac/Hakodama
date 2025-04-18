@@ -1,0 +1,22 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash {
+  animation: fadeOut 1.5s ease-out 2s forwards;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
